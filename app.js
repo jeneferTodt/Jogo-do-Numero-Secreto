@@ -22,7 +22,7 @@ function verificarChute() {
         exibirTextoNaTela('h1', 'Acertou!');    
 
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';  
-        let mensagemTentativa = `Você descobriu o número secreto, Lucas, com ${tentativas} ${palavraTentativa}!`;
+        let mensagemTentativa = `Você descobriu o número secreto, com ${tentativas} ${palavraTentativa}!`;
         
         exibirTextoNaTela('p', mensagemTentativa);
 
@@ -67,3 +67,4 @@ function reiniciarJogo() {
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
+
